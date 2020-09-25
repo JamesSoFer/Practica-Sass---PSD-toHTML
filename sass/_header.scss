@@ -1,0 +1,41 @@
+#logo {
+    width: 183px;
+    float: left; 
+}
+  
+#menu {
+    width: 655px;
+    float: right;
+    position: relative;
+}
+  
+#email {
+    color: $email-gray;
+    font-size: $font-size;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none; 
+}
+  
+#menu_lista {
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0; 
+}
+  
+#menu_lista li {
+    float: left; 
+}
+  
+#menu_lista a {
+    font-size: $font-size;
+    color: $orange;
+    font-weight: bold;
+    text-transform: $uppercase;
+    text-decoration: none; 
+}
+  
+#menu_lista li + li {
+    margin-left: 64px; 
+}

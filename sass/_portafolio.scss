@@ -1,0 +1,13 @@
+.imgs-portafolio {
+    width: 214.5px;
+    float: left; 
+}
+  
+.imgs-portafolio + .imgs-portafolio {
+    margin-left: 34px; 
+}
+  
+.box-img a, .box-img img {
+    display: block; 
+}
+  

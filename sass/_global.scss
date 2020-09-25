@@ -1,0 +1,32 @@
+body {
+    font-family: $font-family-arial;
+    border-top: 17px solid $black;
+    margin: 0px; 
+}
+  
+h2 {
+    font-size: 18px;
+    padding-left: 30px;
+    background-position: 0px 7px; 
+}
+  
+h3 {
+    font-size: $font-size;
+    padding-left: 23px;
+    background-position: 0 5px;
+    background-size: 8px;
+}
+  
+h2, h3 {
+    color: $black;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    text-transform: $uppercase;
+    padding-bottom: 12px; 
+}
+  
+p {
+    color: $darkgray;
+    font-size: $font-size;
+    line-height: 15px; 
+}
