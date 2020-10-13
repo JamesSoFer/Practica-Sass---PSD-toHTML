@@ -1,0 +1,45 @@
+//tablet
+
+@media(max-width: 1023px){
+
+	.wrapper.space-tablet{ 
+		> div{
+			padding: 20px 0;
+        } 
+    }
+
+    #menu_lista {
+        display: none;
+    }
+
+    .menu-link {
+        text-align: right;
+		margin-top: 45px;
+		display: block;
+    }
+
+    .imgs-portafolio {
+        width: 48%;
+        padding: 1%;
+    }
+
+    .imgs-portafolio + .imgs-portafolio{
+        margin-left: 0;
+    }
+
+    #updates-block {
+        width: 100%;
+		margin-right: 0;
+		float: none;
+    }
+
+    #conect-block {
+        width: 100%;
+		float: none;
+    }
+
+    .logo-footer {
+        position: static;
+		margin-top: 15px;
+    }
+}

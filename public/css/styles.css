@@ -92,6 +92,9 @@ p {
 #menu_lista li + li {
   margin-left: 8%; }
 
+.menu-link {
+  display: none; }
+
 #ourBenefits-blocks_lista {
   list-style: none;
   margin: 0;
@@ -170,3 +173,36 @@ p {
   position: absolute;
   right: 0;
   top: -8px; }
+
+@media (max-width: 1023px) {
+  .wrapper.space-tablet > div {
+    padding: 20px 0; }
+  #menu_lista {
+    display: none; }
+  .menu-link {
+    text-align: right;
+    margin-top: 45px;
+    display: block; }
+  .imgs-portafolio {
+    width: 48%;
+    padding: 1%; }
+  .imgs-portafolio + .imgs-portafolio {
+    margin-left: 0; }
+  #updates-block {
+    width: 100%;
+    margin-right: 0;
+    float: none; }
+  #conect-block {
+    width: 100%;
+    float: none; }
+  .logo-footer {
+    position: static;
+    margin-top: 15px; } }
+
+@media (max-width: 767px) {
+  .imgs-portafolio {
+    width: 100%;
+    padding: 0;
+    float: none; }
+  .imgs-portafolio + .imgs-portafolio {
+    margin-top: 15px; } }

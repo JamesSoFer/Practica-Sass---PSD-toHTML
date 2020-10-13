@@ -1,0 +1,13 @@
+//mobile
+
+@media (max-width: 767px) {
+    .imgs-portafolio {
+        width: 100%;
+		padding: 0;
+		float: none;
+    }
+
+    .imgs-portafolio + .imgs-portafolio {
+        margin-top: 15px;
+    }
+}
